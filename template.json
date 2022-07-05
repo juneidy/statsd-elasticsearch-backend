@@ -6,59 +6,57 @@
 		"number_of_shards" : 1
 	},
 	"mappings" : {
-		"_doc" : {
-			"_source" : { "enabled" : true },
-			"properties": {
-				"@timestamp": {
-					"type": "date"
-				},
-				"ns": {
-					"type": "keyword"
-				},
-				"grp": {
-					"type": "keyword"
-				},
-				"tgt": {
-					"type": "keyword"
-				},
-				"act": {
-					"type": "keyword"
-				},
-				"type": {
-					"type": "keyword"
-				},
+		"_source" : { "enabled" : true },
+		"properties": {
+			"@timestamp": {
+				"type": "date"
+			},
+			"ns": {
+				"type": "keyword"
+			},
+			"grp": {
+				"type": "keyword"
+			},
+			"tgt": {
+				"type": "keyword"
+			},
+			"act": {
+				"type": "keyword"
+			},
+			"type": {
+				"type": "keyword"
+			},
 
-				"val": {
-					"type": "double"
-				},
+			"val": {
+				"type": "double"
+			},
 
-				"count": {
-					"type": "float"
-				},
-				"count_ps": {
-					"type": "float"
-				},
-				"upper": {
-					"type": "float"
-				},
-				"lower": {
-					"type": "float"
-				},
-				"mean": {
-					"type": "float"
-				},
-				"median": {
-					"type": "float"
-				},
-				"std": {
-					"type": "float"
-				},
-				"sum": {
-					"type": "float"
-				},
-				"sum_squares": {
-					"type": "float"
-				}
+			"count": {
+				"type": "float"
+			},
+			"count_ps": {
+				"type": "float"
+			},
+			"upper": {
+				"type": "float"
+			},
+			"lower": {
+				"type": "float"
+			},
+			"mean": {
+				"type": "float"
+			},
+			"median": {
+				"type": "float"
+			},
+			"std": {
+				"type": "float"
+			},
+			"sum": {
+				"type": "float"
+			},
+			"sum_squares": {
+				"type": "float"
 			}
 		}
 	}
